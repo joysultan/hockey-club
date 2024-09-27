@@ -6,10 +6,111 @@
     <title>Hockey CLub</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/91c49206b2.js" crossorigin="anonymous"></script>
+    <!-- font awsome -->
 </head>
 <body>
-    <header class="flex justify-center mt-40">
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a class="text-[#FF4240]">Home</a></li>
+                      <li><a class="">About</a></li>
+                      <li><a class="">Pages</a></li>
+                      <li><a class="">Blog</a></li>
+                      <li><a class="">Contact</a></li>
+
+                      
+                    </ul>
+                  </div>
+                  
+                    <!-- logo -->
+                    <h2 class="md:text-4xl text-1xl font-extrabold cursor-pointer">Hockey <span class="text-[#FF4240]">’</span>s</h2>
+                    <!-- logo -->
+                  
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-[#FF4240]">Home</a></li>
+                      <li><a class="">About</a></li>
+                      <li><a class="">Pages</a></li>
+                      <li><a class="">Blog</a></li>
+                      <li><a class="">Contact</a></li>
+                  </ul>
+                </div>
         
+           
+               
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass md:mr-4 md:block hidden"></i><a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+                </div>
+                
+
+ 
+              </div>
+              
+        </nav>
+
+          </div>
     </header>
+    <main class="container mx-auto">
+        <section class="my-24">
+          <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              
+              <img
+                src="img/1.png"
+                class="w-full" />
+                  
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="img/2.png"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="img/3.png"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
