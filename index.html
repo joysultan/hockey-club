@@ -10,8 +10,19 @@
     <!-- font awsome -->
     <script src="https://kit.fontawesome.com/91c49206b2.js" crossorigin="anonymous"></script>
     <!-- font awsome -->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+     <style>
+      .font-manrope{
+        font-family: "Manrope", sans-serif;
+      }
+     </style>
 </head>
-<body>
+<body class="font-manrope">
     <header class="container mx-auto">
         <nav>
             <div class="navbar bg-base-100">
@@ -176,6 +187,55 @@
                 </div>
               </div>
             </div>
+        </section>
+
+        <section class="my-24">
+          <div class="text-center">
+            <h2 class="text-4xl font-extrabold mb-6">Program Sections</h2>
+            <p class="mb-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+          </div>
+                 <!-- Two Cards in a Grid -->
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Junior Program Card -->
+          <div class="card  bg-cover text-white md:px-10 md:py-12" style="background-image: url('img/2.png'); background-repeat: no-repeat;">
+              <div class="card-body  p-8">
+                  <h2 class="card-title text-2xl font-extrabold mb-2">Junior Program</h2>
+                  <p class="mb-4 md:w-[495px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit et enim sagittis turpis in magna.</p>
+                  <div class="card-actions justify-start">
+                      <button class="btn bg-[#FF4240] text-white hover:bg-transparent">Register Now!</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Teenager Program Card -->
+          <div class="card bg-cover bg-center text-white md:px-10 md:py-12" style="background-image: url('img/3.png');">
+              <div class="card-body p-8">
+                  <h2 class="card-title text-2xl font-extrabold mb-2">Teenager Program</h2>
+                  <p class="mb-4 md:w-[495px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit et enim sagittis turpis in magna.</p>
+                  <div class="card-actions justify-start">
+                      <button class="btn bg-[#FF4240] text-white hover:bg-transparent">Register Now!</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Professional Program Card (Full-width below) -->
+      <div class="mt-6">
+          <div class="card bg-cover bg-center text-white md:px-8 md:py-40" style="background-image: url('img/4.png');">
+              <div class="card-body  p-8 align-text-bottom">
+                  <div class="md:mt-40">
+                      <h2 class="card-title text-2xl font-extrabold mb-2">Professional Program</h2>
+                      <p class="mb-4 md:w-[520px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit et enim sagittis turpis in magna.</p>
+                      <div class="card-actions justify-start">
+                          <button class="btn bg-[#FF4240] text-white hover:bg-transparent">Register Now!</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+          
+         
         </section>
     </main>
     <footer>
